@@ -1,34 +1,42 @@
-﻿namespace SelectionStatementExercise
+﻿}
+using Internal;
+
+namespace SelectionStatementExercise
 {
     public class Program
     {
         static void Main(string[] args)
         {
 
-            var r = new Random();
+            var favNumber = 555;
+            int userInput;
 
-            int favNumber = 5;
-
-            Console.WriteLine("Try and guess the number from 1 to 1000");
-            int userInput = Console.ReadLine();
-
-            if(userInput > favNumber)
+            do
             {
-                Console.Writeline("nope, Too high!");
 
-            }
-            if else(userInput < favNumber)
-            {
-                Console.WriteLine("Almost, But to low!");
-            }
-            else(userInput == favNumber)
-            {
-                Console.WriteLine("CORRECT!!!");
-            }
+                Console.WriteLine("Try and guess the number from 1 to 1000");
+                userInput = int.Parse(Console.ReadLine());
+
+                if (userInput > favNumber)
+                {
+                    Console.WriteLine("nope, Too high!");
+
+                }
+
+                else if (userInput < favNumber)
+                {
+                    Console.WriteLine("Almost, But to low!");
+                }
+
+                else
+                {
+                    Console.WriteLine("CORRECT!!!");
+                }
 
 
+            } while (userInput != favNumber);
 
-            
         }
+
     }
 }

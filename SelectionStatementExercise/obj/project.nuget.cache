@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "F3BcfxWSPVg7YSs58GFsOVelsigHbRsuxXVNsxV7w7URP0cd6tCACavDkBDNouPp+8EtMsIuu98OA3DsFZd5sg==",
+  "dgSpecHash": "KArsoZqd68oC41q9z5g6WWOACuQM7BYnuzG8iOfhg4Jz+KRFPTRhVUaCOsN/uClHnEiYveQ1zkKx2cIC/trPwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\new\\SelectionStatementExercise\\SelectionStatementExercise\\SelectionStatementExercise.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/kiara/Desktop/repos/Selection-Statements-Exercise/SelectionStatementExercise/SelectionStatementExercise.csproj",
+  "expectedPackageFiles": [
+    "/Users/kiara/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/kiara/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.31/microsoft.netcore.app.host.osx-x64.6.0.31.nupkg.sha512",
+    "/Users/kiara/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
